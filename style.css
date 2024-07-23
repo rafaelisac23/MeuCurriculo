@@ -1,0 +1,379 @@
+*{
+    font-family: Arial;
+    color: black;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    
+   
+}
+header{
+    display: flex;
+  margin-bottom: 10px;
+    background-color: #ffb269;
+    padding-bottom:10px ;
+    padding-top: 10px;
+    width: 100%;
+   
+}
+
+.nome_prof{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left:10px ;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+   
+    
+}
+
+#informacoes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+#informacoes section{
+    flex: 2;
+
+}
+#informacoes aside{
+    flex: 1;
+    display: column;
+    border-left:1px solid #5c5c5c ;
+  
+    
+}
+
+.widget{
+    padding-top:20px ;
+}
+.widget-body{
+
+    padding-top:20px ;
+
+}
+
+
+.widget-title-desc{
+
+   
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.widget-title-bar{
+
+    width: 500px;
+    height: 1px;
+    margin-left: 5px;
+    background-color: #5c5c5c;
+    
+}
+
+
+.experiencia{
+   display: flex;
+   width:100% ;
+   margin-bottom: 50px
+   
+}
+.experiencia-data{
+    
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.experiencia-desc{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.experiencia-desc .desc-titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.experiencia-desc .desc-empresa{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:10px
+}
+.desc-list ul{
+    padding: 20px;
+}
+
+.column{
+
+    flex-direction: column;
+}
+
+.link{
+    margin-top: 10px;
+    
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.link a:hover{
+   color: blue;
+}
+
+aside{
+    width: 100%;
+
+}
+aside .foto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+aside .foto img{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+
+.aside-widget{
+   
+    width: 100%;
+}
+
+.aside-widget-title{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.aside-widget-title-desc{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.aside-widget-bar{
+    width: 200px;
+    height: 1px;
+    background-color: #5c5c5c;
+}
+
+.aside-widget-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    margin-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.email-name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.linkedin{
+    margin-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.linkedin-name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.linkedin .linkedin-desc a{
+    text-decoration: none;
+}
+.linkedin .linkedin-desc a:hover{
+    color: blue;
+}
+
+.telefone{
+    margin-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.telefone-name{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.padd{
+    padding-top: 70px;
+}
+
+.skills{
+
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+.aside-widget-body .skills ul li{
+    font-weight: bold;
+    padding: 5px;
+    text-transform: uppercase;
+    
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #ffb269;
+    margin-top: 20px;
+}
+
+@media (max-width:768px){
+    
+
+    header .widget-title-bar{
+        margin-left: 0px;        
+    }
+
+
+    aside .foto img{
+        width: 200px;
+        height: 200px;
+        margin-top: 5px;
+    }
+  
+    .widget .widget-title .widget-title-bar{
+
+        width: 250px;
+    }
+    .widget .widget-title .widget-title-desc{
+        
+        padding-left: 10px;
+    }
+
+    .widget-body h1{
+        margin-left: 10px;
+    }
+    
+    .experiencia .experiencia-data{
+        margin-left: 10px;
+    }
+    .skills{
+        padding-left: 20px;
+    }
+
+   
+}
+
+@media (max-width:426px){
+    .nome_prof{
+        font-size: 9px;
+    }
+
+    .nome_prof h3{
+        font-size: 15px;
+    }
+
+    header .widget-title-bar {
+        margin-left: 0px;
+        width: 400px;
+    }
+
+    .widget .widget-title .widget-title-desc{
+        
+        font-size: 25px;
+        padding-left: 0px;
+    }
+    .widget .widget-title .widget-title-bar{
+        
+        margin-left: 0px;
+        width: 100px;
+
+    }
+
+    .widget .widget-body{
+        padding-top: 0px;
+        font-size: 10px;
+       
+    }
+
+    .widget .widget-body h1{
+        margin-left:3px;
+    }
+
+    .experiencia{
+        margin-top: 5px;
+        flex-direction: column;
+    }
+
+    .experiencia .experiencia-data{
+        font-size: 15px;
+        margin-left: 5px;
+       
+    }
+    .experiencia-desc .desc-titulo{
+
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 5px;
+        
+
+    }
+
+    .experiencia-desc .desc-empresa{
+
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 5px;
+        
+
+    }
+    .desc-list ul li{
+        font-size: 15px;
+    }
+
+    .linkedin ,.email, .telefone{
+        padding-left: 10px;
+    }
+    .skills{
+        padding-left: 0px;
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+

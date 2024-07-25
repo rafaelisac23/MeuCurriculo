@@ -26,6 +26,27 @@ header{
     padding-left:10px ;
 }
 
+header .widget-title-bar{
+
+    width: 80%;
+    height: 1px;
+    
+    background-color: #5c5c5c;
+    
+}
+
+.widget-title-bar{
+
+    width: 80%;
+    height: 1px;
+    
+    background-color: #5c5c5c;
+    
+}
+
+
+
+
 .container{
     display: flex;
     width: 100%;
@@ -68,14 +89,7 @@ header{
     font-weight: bold;
 
 }
-.widget-title-bar{
 
-    width: 500px;
-    height: 1px;
-    margin-left: 5px;
-    background-color: #5c5c5c;
-    
-}
 
 
 .experiencia{
@@ -149,8 +163,8 @@ aside .foto{
 }
 
 aside .foto img{
-    width: 300px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
     margin-top: 10px;
 }
 
@@ -253,120 +267,19 @@ footer{
     margin-top: 20px;
 }
 
-@media (max-width:768px){
+@media (min-width:240px) and (max-width:702px){
     
-
-    header .widget-title-bar{
-        margin-left: 0px;        
+    .container {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
     }
 
-
-    aside .foto img{
-        width: 200px;
-        height: 200px;
-        margin-top: 5px;
+    .aside-widget {
+        width: 100%;
+        display: none;
     }
-  
-    .widget .widget-title .widget-title-bar{
-
-        width: 250px;
-    }
-    .widget .widget-title .widget-title-desc{
-        
-        padding-left: 10px;
-    }
-
-    .widget-body h1{
-        margin-left: 10px;
-    }
-    
-    .experiencia .experiencia-data{
-        margin-left: 10px;
-    }
-    .skills{
-        padding-left: 20px;
-    }
-
-   
 }
-
-@media (max-width:426px){
-    .nome_prof{
-        font-size: 9px;
-    }
-
-    .nome_prof h3{
-        font-size: 15px;
-    }
-
-    header .widget-title-bar {
-        margin-left: 0px;
-        width: 400px;
-    }
-
-    .widget .widget-title .widget-title-desc{
-        
-        font-size: 25px;
-        padding-left: 0px;
-    }
-    .widget .widget-title .widget-title-bar{
-        
-        margin-left: 0px;
-        width: 100px;
-
-    }
-
-    .widget .widget-body{
-        padding-top: 0px;
-        font-size: 10px;
-       
-    }
-
-    .widget .widget-body h1{
-        margin-left:3px;
-    }
-
-    .experiencia{
-        margin-top: 5px;
-        flex-direction: column;
-    }
-
-    .experiencia .experiencia-data{
-        font-size: 15px;
-        margin-left: 5px;
-       
-    }
-    .experiencia-desc .desc-titulo{
-
-        font-size: 15px;
-        margin-top: 5px;
-        margin-left: 5px;
-        
-
-    }
-
-    .experiencia-desc .desc-empresa{
-
-        font-size: 15px;
-        margin-top: 5px;
-        margin-left: 5px;
-        
-
-    }
-    .desc-list ul li{
-        font-size: 15px;
-    }
-
-    .linkedin ,.email, .telefone{
-        padding-left: 10px;
-    }
-    .skills{
-        padding-left: 0px;
-    }
-
-   
-}
-
 
 
 

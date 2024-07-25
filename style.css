@@ -279,6 +279,11 @@ footer{
         width: 100%;
         display: none;
     }
+
+    .widget {
+       
+        margin-left: 5px;
+    }
 }
 
 

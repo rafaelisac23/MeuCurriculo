@@ -11,7 +11,7 @@ body{
 header{
     display: flex;
   margin-bottom: 10px;
-    background-color: ##119fe6;
+    background-color: #119fe6;
     padding-bottom:10px ;
     padding-top: 10px;
     width: 100%;
@@ -263,7 +263,7 @@ aside .foto img{
 footer{
     height: 100px;
     width: 100%;
-    background-color: ##119fe6;
+    background-color: #119fe6;
     margin-top: 20px;
 }
 
